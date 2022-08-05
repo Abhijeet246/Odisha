@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto+Condensed&display=swap');
+body
+{
+    background: url(https://c4.wallpaperflare.com/wallpaper/843/66/529/minimalism-mountains-illustration-mark-kirkpatrick-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(52, 52, 230);
+    font-family: 'Jost',sans-serif;
+}
+img
+{
+    width: 5vw;
+}
+.text
+{
+    text-align: justify;
+    margin-left: 45vw;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: rgb(175, 213, 246);
+
+    
+}
+h2{
+    margin-right: 40vw;
+    color: rgb(190, 227, 42);
+
+}
