@@ -175,9 +175,13 @@ body {
   margin-top: -35vw;
  margin-left: 59vw;
 }
-.cardContainer
+#cardContainer
 {
-
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,109,1) 78%, rgba(11,141,167,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,109,1) 78%, rgba(11,141,167,1) 100%);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,121,109,1) 78%, rgba(11,141,167,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#0b8da7",GradientType=1); 
 }
 .card {
 
@@ -226,10 +230,10 @@ body {
 .text-for-covid h1
 {
   text-align: center;
-  margin-top: 3vw;
+  margin-top: 1vw;
   font-family: 'Nunito',sans-serif;
   font-weight: bolder;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
   font-size: 3vw;
 
 
@@ -283,7 +287,7 @@ body {
 {
   text-align: center;
   font-family: 'Nunito',sans-serif;
-  margin-top: 19vw;
+  margin-top: 5vw;
   font-weight: bold;
   font-size:3vw;
 }
@@ -323,3 +327,5 @@ body {
   font-weight: bold;
   margin-top: 2vw;
 }
+.Explore
+{}
