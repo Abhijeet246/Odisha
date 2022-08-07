@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap');
+body{
+    background-color: rgb(227, 173, 91);
+}
+.headline{
+    text-align: center;
+    color: rgb(167, 85, 4);
+    font-family: 'Signika Negative', sans-serif;
+
+
+}
+.headline h1{
+    transition: 0.6s;
+}
+h3
+{
+    text-align: center;
+    
+
+
+}
+h3 
+{
+    
+    
+    text-align: center;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(240, 207, 156);
+    border-radius: 1vw;
+    padding: 2%;
+}
+.q1
+{
+    background-color: rgb(230, 159, 53);
+    text-align: center;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 1vw;
+    padding: 0.10%;
+
+}
+.q2
+{
+    background-color: rgb(230, 159, 53);
+    text-align: center;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 1vw;
+    padding: 0.10%;
+
+}
+.q3
+{
+    background-color: rgb(230, 159, 53);
+    text-align: center;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 1vw;
+    padding: 0.10%;
+
+}
+.q4
+{
+    background-color: rgb(230, 159, 53);
+    text-align: center;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 1vw;
+    padding: 0.10%;
+    
+
+}
+.headline h1:hover{
+    font-size: 3vw;
+    cursor: pointer;
+}
+
