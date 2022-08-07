@@ -28,7 +28,8 @@
 }
 .head1 {
   background: url(https://ecoretreat.odishatourism.gov.in/content/dam/eco-retreat-2021/home/koraputbanner.jpg);
-  background-size: cover;
+  background-size:cover;
+  width: 100%;
   background-repeat: no-repeat;
   width: 99vw;
   height: 50vw;
@@ -262,14 +263,18 @@ body {
   box-shadow: 5px 5px 10px black;
   cursor: pointer;
 }
-.card1 h2
+.card1 h2 a
 {
-  text-align: center;
+  margin-top:5vw !important;
   font-family: 'Montserrat',sans-serif;
   font-weight: bold;
   color:rgb(255, 255, 255);
   text-shadow: 2px 2px 5px black;
-  margin-top: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 2.7vw;
 }
 .card1 p {
   font-size: 1.8vw;
