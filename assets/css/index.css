@@ -260,6 +260,7 @@ body {
 .card1 :hover
 {
   box-shadow: 5px 5px 10px black;
+  cursor: pointer;
 }
 .card1 h2
 {

@@ -1,0 +1,217 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  line-height: 1.9;
+  color: #8c8c8c;
+  background-color: #efefef;
+  position: relative; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", sans-serif;
+  color: #000; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.text-black {
+  color: #000; }
+
+.content {
+  padding: 5vw 0; }
+
+.heading {
+  font-size: 2.5vw;
+  font-weight: 900; }
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  background: none; }
+  .form-control:active, .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+
+.col-form-label {
+  color: #000;
+  font-size: 2vw; }
+
+.btn, .form-control, .custom-select {
+  height: 4vw; }
+
+.custom-select:active, .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
+
+.btn {
+  border: none;
+  border-radius: 0;
+  font-size: 1vw;
+  letter-spacing: .2rem;
+  text-transform: uppercase; 
+  
+}
+  .btn.btn-primary {
+    background: #35477d;
+    color: #fff;
+    padding: 0.8vw 0.8vw; }
+  .btn:hover {
+    color: #fff; }
+  .btn:active, .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.contact-wrap .col-form-label {
+  font-size: 1.4vw;
+  color: #b3b3b3;
+  margin: 0 0 1vw 0;
+  display: inline-block;
+  padding: 0; }
+
+.contact-wrap .form, .contact-wrap .contact-info {
+  padding: 2vw; }
+
+.contact-wrap .contact-info {
+  color: rgba(255, 255, 255, 0.5); }
+  .contact-wrap .contact-info ul li {
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.5); }
+    .contact-wrap .contact-info ul li .wrap-icon {
+      font-size: 20px;
+      color: #fff;
+      margin-top: 5px; }
+
+.contact-wrap .form {
+  background: #fff; }
+  .contact-wrap .form h3 {
+    color: #35477d;
+    font-size: 20px;
+    margin-bottom: 30px; }
+
+.contact-wrap .contact-info {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .contact-wrap .contact-info a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+  @media (max-width: 600px) {
+    .contact-wrap .contact-info {
+      height: 40vw !important; } }
+  .contact-wrap .contact-info h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px; }
+
+label.error {
+  font-size: 12px;
+  color: red; }
+
+#message {
+  resize: vertical; }
+
+#form-message-warning, #form-message-success {
+  display: none; }
+
+#form-message-warning {
+  color: #B90B0B; }
+
+#form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold; }
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+ }
+
+ ul {
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+  padding:0;
+  display:flex;
+  
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  position: relative;
+  width:60px;
+  height:60px;
+  display:block;
+  text-align:center;
+  margin:0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration:none;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+  margin-bottom:2vw;
+}
+
+ul li a:hover {
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  text-decoration:none;
+}
+
+ul li a .fa {
+  width: 100%;
+  height:100%;
+  display:block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size:24px;
+  color: #262626;
+  transition: .5s;
+}
+
+ul li:nth-child(1) a:hover .fa {
+  color: #3b5998;
+}
+
+ul li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+ul li:nth-child(3) a:hover .fa{
+  color: #dd4b39;
+}
+
+ul li:nth-child(4) a:hover .fa {
+  color: #007bb6;
+}
+
+ul li:nth-child(5) a:hover .fa{
+  color: #e4405f;
+}
